@@ -13,6 +13,67 @@ they already have.
 - `/codex:adversarial-review` for a steerable challenge review
 - `/codex:rescue`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work and manage background jobs
 
+- ## Why Use This Plugin?
+
+This plugin brings Claude and Codex together into a single, efficient workflow.
+
+- Claude is strong at high-level planning and reasoning  
+- Codex is strong at precise code execution, debugging, and analysis  
+
+By combining both, you can move smoothly from idea → validation → implementation without switching tools.
+
+---
+
+## Example Use Cases
+
+### 1. Code Review Workflow
+Write or modify code in Claude, then run:
+```bash
+/codex:review
+```
+to get a deep and precise review from Codex.
+
+---
+
+### 2. Debugging Issues
+Let Codex investigate and fix problems:
+```bash
+/codex:rescue fix failing tests
+```
+
+---
+
+### 3. Pre-Deployment Safety Check
+Challenge your implementation before shipping:
+```bash
+/codex:adversarial-review
+```
+
+---
+
+### 4. Long-Running Tasks
+Run tasks in the background and monitor them:
+```bash
+/codex:rescue --background investigate issue
+/codex:status
+/codex:result
+```
+
+---
+
+## 💡 Why Not Use Claude and Codex Separately?
+
+While both tools can be used independently, this plugin:
+
+- Eliminates context switching between tools  
+- Keeps your entire workflow in one place  
+- Enables faster iteration between planning and execution  
+- Allows background task delegation and tracking  
+
+This results in a smoother, faster, and more productive developer experience.
+
+
+
 ## Requirements
 
 - **ChatGPT subscription (incl. Free) or OpenAI API key.**
