@@ -13,11 +13,11 @@ they already have.
 - `/codex:adversarial-review` for a steerable challenge review
 - `/codex:rescue`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work and manage background jobs
 
-- ## Why Use This Plugin?
+## Why Use This Plugin?
 
-This plugin brings Claude and Codex together into a single, efficient workflow.
+This plugin brings Claude Code and Codex together into a single, efficient workflow.
 
-- Claude is strong at high-level planning and reasoning  
+- Claude Code is strong at high-level planning and reasoning  
 - Codex is strong at precise code execution, debugging, and analysis  
 
 By combining both, you can move smoothly from idea → validation → implementation without switching tools.
